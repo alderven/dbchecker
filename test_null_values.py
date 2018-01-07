@@ -33,7 +33,7 @@ def test_null_values(parameter_to_check, test_input, expected):
                             'и сохраняет результат в таблицу "CHECK_STATUS"'):
         db_checker()
 
-    with pytest.allure.step('3. Вычитываем из таблицы "CHECK_STATUS" данные о количестве NULL значений'
+    with pytest.allure.step('3. Вычитываем из таблицы "CHECK_STATUS" данные о количестве NULL значений '
                             'для поля: "{}"'.format(parameter_to_check)):
 
         actual = db.get_value_for(parameter_to_check)

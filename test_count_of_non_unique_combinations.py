@@ -39,7 +39,7 @@ def test_count_of_non_unique_combinations_count():
                             'и сохраняет результат в таблицу "CHECK_STATUS"'):
         db_checker()
 
-    with pytest.allure.step('3. Вычитываем из таблицы "CHECK_STATUS" данные о количестве неуникальных комбинаций'
+    with pytest.allure.step('3. Вычитываем из таблицы "CHECK_STATUS" данные о количестве неуникальных комбинаций '
                             'ID, INT_VALUE, сравниваем с ожидаемым значением: {}'.format(records_count_non_unique)):
 
         err_msg = 'Ожидаемое количество записей: {}, количество записей в таблице "CHECK_OBJECT": {}'.format(records_count_non_unique, db.records_count_non_unique)
