@@ -1,0 +1,110 @@
+{
+  "uid" : "62ae0411d33822f6",
+  "name" : "test_mean_value_int",
+  "fullName" : "test_mean_value_int#test_mean_value_int",
+  "historyId" : "0f4cf233fc56d1d5a0bc9fcef4405538",
+  "time" : {
+    "start" : 1515360434389,
+    "stop" : 1515360435170,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем случайное количество записей в таблицу \"CHECK_OBJECT\"",
+      "time" : {
+        "start" : 1515360434389,
+        "stop" : 1515360434795,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360434795,
+        "stop" : 1515360435170,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о среднем значении параметра \"INT_VALUE\", сравниваем с ожидаемым значением: 3.74533237",
+      "time" : {
+        "start" : 1515360435170,
+        "stop" : 1515360435170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование среднего значения для параметра \"INT_VALUE\""
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mean_value_int"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62ae0411d33822f6.json",
+  "parameterValues" : [ ]
+}

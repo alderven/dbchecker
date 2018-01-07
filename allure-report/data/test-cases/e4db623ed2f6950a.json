@@ -1,0 +1,119 @@
+{
+  "uid" : "e4db623ed2f6950a",
+  "name" : "test_zeros_count[ZERO_INT_VALUE-test_input1-1]",
+  "fullName" : "test_zeros_count#test_zeros_count[ZERO_INT_VALUE-test_input1-1]",
+  "historyId" : "1563c02a453f653f8822609a9c053eab",
+  "time" : {
+    "start" : 1515360441308,
+    "stop" : 1515360442069,
+    "duration" : 761
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем данные в таблицу \"CHECK_OBJECT\": \"[(1, '2018-01-08', 0, 0.652754179310237, 'StringC', '2018-01-02')]\"",
+      "time" : {
+        "start" : 1515360441308,
+        "stop" : 1515360441698,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360441698,
+        "stop" : 1515360442068,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о количестве 0 для поля: \"ZERO_INT_VALUE\"",
+      "time" : {
+        "start" : 1515360442068,
+        "stop" : 1515360442069,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование количества 0"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zeros_count"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "1"
+  }, {
+    "name" : "parameter_to_check",
+    "value" : "'ZERO_INT_VALUE'"
+  }, {
+    "name" : "test_input",
+    "value" : "[(1, '2018-01-08', 0, 0.652754179310237, 'StringC', '2018-01-02')]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4db623ed2f6950a.json",
+  "parameterValues" : [ "1", "'ZERO_INT_VALUE'", "[(1, '2018-01-08', 0, 0.652754179310237, 'StringC', '2018-01-02')]" ]
+}

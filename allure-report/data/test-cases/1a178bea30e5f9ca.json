@@ -1,0 +1,119 @@
+{
+  "uid" : "1a178bea30e5f9ca",
+  "name" : "test_null_values[NULL_DATE_VALUE-test_input5-1]",
+  "fullName" : "test_null_values#test_null_values[NULL_DATE_VALUE-test_input5-1]",
+  "historyId" : "8922f1d801478df14b0e63c8a8784971",
+  "time" : {
+    "start" : 1515360439015,
+    "stop" : 1515360439743,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем данные в таблицу \"CHECK_OBJECT\": \"[(5, '2018-01-08', 5, 0.5419635062712302, 'StringF', None)]\"",
+      "time" : {
+        "start" : 1515360439015,
+        "stop" : 1515360439374,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360439374,
+        "stop" : 1515360439743,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о количестве NULL значенийдля поля: \"NULL_DATE_VALUE\"",
+      "time" : {
+        "start" : 1515360439743,
+        "stop" : 1515360439743,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование NULL значений"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_null_values"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "1"
+  }, {
+    "name" : "parameter_to_check",
+    "value" : "'NULL_DATE_VALUE'"
+  }, {
+    "name" : "test_input",
+    "value" : "[(5, '2018-01-08', 5, 0.5419635062712302, 'StringF', None)]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a178bea30e5f9ca.json",
+  "parameterValues" : [ "1", "'NULL_DATE_VALUE'", "[(5, '2018-01-08', 5, 0.5419635062712302, 'StringF', None)]" ]
+}

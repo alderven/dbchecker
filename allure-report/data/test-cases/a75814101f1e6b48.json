@@ -1,0 +1,140 @@
+{
+  "uid" : "a75814101f1e6b48",
+  "name" : "test_count_of_non_unique_combinations_count",
+  "fullName" : "test_count_of_non_unique_combinations#test_count_of_non_unique_combinations_count",
+  "historyId" : "630a88efa4e8c7e0e541bd54dd6aef1b",
+  "time" : {
+    "start" : 1515360432733,
+    "stop" : 1515360433577,
+    "duration" : 844
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем случайное количество записей в таблицу \"CHECK_OBJECT\"",
+      "time" : {
+        "start" : 1515360432733,
+        "stop" : 1515360433139,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "1.1 Добавляем записи с уникальной комбинацией ID, INT_VALUE",
+        "time" : {
+          "start" : 1515360432983,
+          "stop" : 1515360432983,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "1.1 Добавляем записи с неуникальной комбинацией ID, INT_VALUE",
+        "time" : {
+          "start" : 1515360432983,
+          "stop" : 1515360432983,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360433139,
+        "stop" : 1515360433577,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о количестве неуникальных комбинацийID, INT_VALUE, сравниваем с ожидаемым значением: 51",
+      "time" : {
+        "start" : 1515360433577,
+        "stop" : 1515360433577,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование количества неуникальных комбинаций ID, INT_VALUE"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_count_of_non_unique_combinations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a75814101f1e6b48.json",
+  "parameterValues" : [ ]
+}

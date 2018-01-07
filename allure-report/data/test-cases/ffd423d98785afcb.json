@@ -1,0 +1,110 @@
+{
+  "uid" : "ffd423d98785afcb",
+  "name" : "test_records_count",
+  "fullName" : "test_records_count#test_records_count",
+  "historyId" : "4360d6ae2e490c3a772f50f25b74181b",
+  "time" : {
+    "start" : 1515360439758,
+    "stop" : 1515360440524,
+    "duration" : 766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем случайное количество записей в таблицу \"CHECK_OBJECT\"",
+      "time" : {
+        "start" : 1515360439758,
+        "stop" : 1515360440133,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360440133,
+        "stop" : 1515360440524,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о количестве записей, сравниваем с ожидаемым значением: 48",
+      "time" : {
+        "start" : 1515360440524,
+        "stop" : 1515360440524,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование количества записей"
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_records_count"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffd423d98785afcb.json",
+  "parameterValues" : [ ]
+}

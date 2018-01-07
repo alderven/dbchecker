@@ -1,0 +1,119 @@
+{
+  "uid" : "a17a3774d9ca1d4f",
+  "name" : "test_zeros_count[ZERO_FLOAT_VALUE-test_input2-1]",
+  "fullName" : "test_zeros_count#test_zeros_count[ZERO_FLOAT_VALUE-test_input2-1]",
+  "historyId" : "cdd1ebf551a52d36e40d87827485f8ee",
+  "time" : {
+    "start" : 1515360442072,
+    "stop" : 1515360442806,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. Добавляем данные в таблицу \"CHECK_OBJECT\": \"[(2, '2018-01-08', 3, 0, 'StringD', '2018-01-03')]\"",
+      "time" : {
+        "start" : 1515360442072,
+        "stop" : 1515360442447,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "2. Запускаем программу \"checker\", она анализирует таблицу \"CHECK_OBJECT\" и сохраняет результат в таблицу \"CHECK_STATUS\"",
+      "time" : {
+        "start" : 1515360442447,
+        "stop" : 1515360442806,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "3. Вычитываем из таблицы \"CHECK_STATUS\" данные о количестве 0 для поля: \"ZERO_FLOAT_VALUE\"",
+      "time" : {
+        "start" : 1515360442806,
+        "stop" : 1515360442806,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Тестирование количества 0"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "DBChecker"
+  }, {
+    "name" : "host",
+    "value" : "MASYAN"
+  }, {
+    "name" : "thread",
+    "value" : "2820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_zeros_count"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "1"
+  }, {
+    "name" : "parameter_to_check",
+    "value" : "'ZERO_FLOAT_VALUE'"
+  }, {
+    "name" : "test_input",
+    "value" : "[(2, '2018-01-08', 3, 0, 'StringD', '2018-01-03')]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a17a3774d9ca1d4f.json",
+  "parameterValues" : [ "1", "'ZERO_FLOAT_VALUE'", "[(2, '2018-01-08', 3, 0, 'StringD', '2018-01-03')]" ]
+}
